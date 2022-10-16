@@ -11,7 +11,7 @@ nav {
 
 }
 
-td {text-align: center;}
+table {text-align: center;}
 
 }
 a {
@@ -76,12 +76,6 @@ form {
 div {
     padding-bottom: 5px;
 
-}
-
-table {
-    padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 table a {
