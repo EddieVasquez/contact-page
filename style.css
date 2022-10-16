@@ -7,14 +7,18 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: grey;
+}
 
+h1 {
+    text-align: center;
+    color: red;
 
 }
 
 a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,30 +31,11 @@ a:hover {
 }
 
 
-h1 {
-    text-align: center;
-    color: red;
-
-}
-
-h4{
-    color:red;
-    text-align:left;
-}
-
 IMG {
     display: block;
     margin: 0 auto;
     padding-bottom: 10px;
 }
-
-p {
-    width: 500px;
-    margin: 0 auto;
-    padding-bottom: 10px;
-	  color: red;
-}
-
 
 footer {
     margin: 0;
@@ -75,39 +60,12 @@ div {
 
 }
 
-table {
-    padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table a {
-    border: 2px solid black;
-    background-color: gray;
-}
-
-mail {
-    border: 2px solid black;
-    margin-top: 15%;
-    background-color: gray;
-
-}
-
-.footerClass {
-    margin-top: 35%;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    text-align: right
-}
-
-
 fieldset {
     background-color: silver;
     border: solid #ff0000;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    text-align:left;
+    text-align:center;
+    width:0px;
+    margin: 0px auto;
 }
