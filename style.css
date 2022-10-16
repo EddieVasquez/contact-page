@@ -11,6 +11,10 @@ nav {
 
 }
 
+card {
+    align-content: center;
+
+}
 a {
     float: left;
     display: block;
