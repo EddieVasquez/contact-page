@@ -2,6 +2,7 @@
 <html>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script src="https://use.fontawesome.com/5415219b8d.js"></script>
+<script src="https://use.fontawesome.com/5415219b8d.js"></script>
 <script>
     window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
     formbutton("create", {
@@ -26,40 +27,93 @@
             required: true
           },
           {
+            name: "Message",
+            type: "text",
+            label: "Your message",
+            required: false
+          },
+          {
             type: "submit"
           }],
-          title: "Send your Contact info",
+          title: "Send us a message!",
        description: "",
 
        styles: {
-             fontFamily:'"Lato", sans-serif',
-             button: {
-               background: "#FFE81F"
+            fontFamily:'"Lato", sans-serif',
+            button: {
+            background: "#0213c9"
              },
+
              title: {
-               background: "#FFE81F",
+               background: "#0213c9",
                letterSpacing: "0.05em",
                textTransform: "uppercase"
              }
-           }  // <-- new button icon
+           }
     });
 </script>
   <head>
    <title>Contact Info</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eduardo Vasquez | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
   <link rel="stylesheet" href="style.css">
+  <title>A&F Ruiz Contractors LLC | Home</title>
+
   </head>
+
   <body>
 
-<h1>Eduardo Vasquez</h1>
-
 <fieldset>
-  <button class="button button1"> <a href="mailto:eduvasquez1699@gmail.com"> eduvasquez1699@gmail.com </a></button><br>
-  <button class="button button1"> <a href="tel:+19563820451"> (956) 382-0451  </a></button><br>
-  <button class="button button1"> <a href=-3786431194962678720.vcf> Add Contact </a></button>
-
+<h1>A&F Ruiz Contractors LLC</h1>
+<img src="images/af.jpg">
+  <button class="button button1"> <a class="contact" href="mailto:afruizcontractors@gmail.com"> afruizcontractors@gmail.com</a></button><br>
+  <button class="button button1"> <a class="contact" href="tel:+19563820451"> 956-295-9245  </a></button><br>
+  <button class="button button1"> <a class="contact" href=AF.vcf> Add Contact </a></button><br>
+   <div class="center"><a href="https://www.facebook.com/people/AF-Ruiz-Contractors-LLC/100085451895079/"> <i class="fa fa-facebook center" aria-hidden="true"></i></a></div>
 </fieldset>
 
+<br>
+<br>
+<div class="myimages" style="max-width:500px;">
+  <img class="mySlides" src="images\1.jpg" style="width:100%">
+  <img class="mySlides" src="images\2.png" style="width:100%">
+  <img class="mySlides" src="images\3.jpg" style="width:100%">
+  <img class="mySlides" src="images\4.jpg" style="width:100%">
+  <img class="mySlides" src="images\5.jpg" style="width:100%">
+  <img class="mySlides" src="images\6.jpg" style="width:100%">
+  <img class="mySlides" src="images\7.png" style="width:100%">
+  <img class="mySlides" src="images\8.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
   </body>
+
+  <footer>
+    <div class="foot">
+      Want your own site? contact <a class="email" href="mailto:vbc.btx@gmail.com">US </a> today!
+    </div>
+    </footer>
+
+
+
 </html>
