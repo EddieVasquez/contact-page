@@ -9,8 +9,8 @@ h1 {
     vertical-align: top;
 }
 
-a {
-    float: left;
+.contact {
+
     display: block;
     color: black;
     text-align: center;
@@ -19,7 +19,7 @@ a {
     border-right: 1px solid white;
 }
 
-a:hover {
+.contact:hover {
     background-color: white;
     color: black;
 }
@@ -32,22 +32,21 @@ IMG {
 }
 
 footer {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    overflow: visible;
     background-color: grey;
     position: absolute;
     left: 0;
     bottom: 0;
+    width: 250%;
 }
 
-form {
+/*form {
     border: 4px solid black;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
     background-color: grey;
-}
+}*/
 
 div {
     padding-bottom: 5px;
@@ -62,4 +61,12 @@ fieldset {
     text-align:center;
     width:0px;
     margin: 0px auto;
+}
+
+.email {
+  color: #FFE81F;
+}
+
+.foot{
+  width: 500px;
 }
