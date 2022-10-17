@@ -1,6 +1,6 @@
 body {
     background-image: url("images/milky-way.png"),url("images/graphy-dark2.png");
-    height: 100%;
+    background-size: auto;
 }
 
 h1 {
@@ -32,12 +32,12 @@ IMG {
 }
 
 footer {
-    overflow: visible;
+    overflow: hidden;
     background-color: grey;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 250%;
+    width: 100%;
 }
 
 /*form {
@@ -68,5 +68,5 @@ fieldset {
 }
 
 .foot{
-  width: 500px;
+   width:auto;
 }
