@@ -2,16 +2,10 @@ body {
     background-image: url("images/milky-way.png"),url("images/graphy-dark2.png");
     height: 100%;
 }
-nav {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: grey;
-}
 
 h1 {
     text-align: center;
-    color: red;
+    color: #FFE81F;
 
 }
 
@@ -62,7 +56,7 @@ div {
 
 fieldset {
     background-color: silver;
-    border: solid #ff0000;
+    border: solid #FFE81F;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     text-align:center;
