@@ -1,61 +1,13 @@
-body {
+body{
+    min-height:100vh; margin:0; position:relative;
     background-image: url("images/milky-way.png"),url("images/graphy-dark2.png");
     background-size: auto;
-}
-
-h1 {
-    text-align: center;
-    color: #FFE81F;
-    vertical-align: top;
-}
-
-.contact {
-
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-right: 1px solid white;
-}
-
-.contact:hover {
-    background-color: white;
-    color: black;
-}
-
-
-IMG {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-
-footer {
-    overflow: hidden;
-    background-color: grey;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-/*form {
-    border: 4px solid black;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: grey;
-}*/
-
-div {
-    padding-bottom: 5px;
-
-}
+  }
 
 fieldset {
     background-color: silver;
     border: solid #FFE81F;
+    border-width: thick;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     text-align:center;
@@ -63,10 +15,66 @@ fieldset {
     margin: 0px auto;
 }
 
+.links {
+    height: auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+h1 {
+    text-align: center;
+    color: #FFE81F;
+    vertical-align: top;
+}
+
+
+  button{
+    border: none;
+    outline: none;
+    background: none;
+  }
+
+  button:hover{
+    background-color: gray;
+  }
+
+.contact {
+
+  display: block;
+  color: black;
+  text-align: justify;
+  width: 250px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.fa-circle{
+color: #FFE81F;
+}
+
+/*end of contact section*/
+
+
+
+/*footer starts*/
+
+
 .email {
   color: #FFE81F;
 }
 
-.foot{
-   width:auto;
+footer{
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.foottext{
+  color: white;
+  text-align: center;
+  font-size: relative;
 }
